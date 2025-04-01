@@ -21,14 +21,19 @@
 
 1. Download the Python script from GitHub and place it in the same folder as your exported `followers.json` and `following.json` file.
 
+   - Windows
    ```sh
    curl -o main.py https://raw.githubusercontent.com/Hitchgernn/Unfollowers-Checker/main/main.py
    ```
-2. Run the script in the terminal:
+   - Mac/Linux
+   ```sh
+   wget https://raw.githubusercontent.com/Hitchgernn/Unfollowers-Checker/main/main.py
+   ```
+1. Run the script in the terminal:
 
    ```sh
    python main.py
    ```
-3. It will display a list of people who don’t follow you back.
+2. It will display a list of people who don’t follow you back.
 
 
