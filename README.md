@@ -29,7 +29,7 @@ Created by : [Hitchgernn](https://www.instagram.com/hitchgernn)
    ```sh
    wget https://raw.githubusercontent.com/Hitchgernn/Followed-but-Not-Following/main/main.py
    ```
-3. Run the script in the terminal:
+3. Run the script in terminal:
 
    ```sh
    python main.py
