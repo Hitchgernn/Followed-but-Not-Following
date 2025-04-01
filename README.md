@@ -17,14 +17,21 @@
 
 ## 2. Download & Run the Script
 1. Open your terminal and move to a folder you have created.
-2. Download the python script from GitHub.
+2. Download the Python script from GitHub:
+   - Windows
 
    ```sh
    curl -o main.py https://raw.githubusercontent.com/Hitchgernn/Unfollowers-Checker/main/main.py
    ```
-3. Run the script in the terminal.
+   - Mac/Linux
+
+   ```sh
+   wget https://raw.githubusercontent.com/Hitchgernn/Unfollowers-Checker/main/main.py
+   ```
+3. Run the script in the terminal:
 
    ```sh
    python main.py
    ```
 4. It will display a list of people who don’t follow you back.
+
