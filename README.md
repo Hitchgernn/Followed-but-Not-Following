@@ -1,5 +1,6 @@
 # Instagram Unfollowers Tracker using Python
 
+
 ## 1. Export Your Instagram Data
 
 1. Go to Instagram → Settings → Your activity.
@@ -8,11 +9,12 @@
 4. Instagram will email you a ZIP file – download and extract it.
 5. Create a new folder
 6. Inside the extracted folder, find the file:
+   
    ```sh
    followers.json
    following.json
    ```
-   - if there is `followers_1.json` file, rename it to `followers.json`
+   if there is `followers_1.json` file, rename it to `followers.json`
 7. Move those two files into the new folder you created.
 
 ## 2. Download & Run the Script
