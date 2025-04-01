@@ -1,5 +1,6 @@
-# Instagram Unfollowers Tracker using Python  
+# Followed but Not Following  
 
+Created by : [Hitchgernn](https://www.instagram.com/hitchgernn)
 ## 1. Export Your Instagram Data
 1. Go to Instagram → Settings → Your activity.
 2. Scroll down and select **Download your information**.
@@ -21,12 +22,12 @@
    - Windows
 
    ```sh
-   curl -o main.py https://raw.githubusercontent.com/Hitchgernn/Unfollowers-Checker/main/main.py
+   curl -o main.py https://raw.githubusercontent.com/Hitchgernn/Followed-but-Not-Following/main/main.py
    ```
    - Mac/Linux
 
    ```sh
-   wget https://raw.githubusercontent.com/Hitchgernn/Unfollowers-Checker/main/main.py
+   wget https://raw.githubusercontent.com/Hitchgernn/Followed-but-Not-Following/main/main.py
    ```
 3. Run the script in the terminal:
 
@@ -34,4 +35,5 @@
    python main.py
    ```
 4. It will display a list of people who don’t follow you back.
+
 
