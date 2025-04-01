@@ -1,6 +1,7 @@
 # Followed but Not Following  
 
-Created by : [Hitchgernn](https://www.instagram.com/hitchgernn)
+Created by : [Hitchgernn](https://www.instagram.com/hitchgernn)  
+This script helps you find out **who doesn't follow you back** on Instagram using your account data.
 ## 1. Export Your Instagram Data
 1. Go to Instagram → Settings → Your activity.
 2. Scroll down and select **Download your information**.
