@@ -1,9 +1,6 @@
 import json
 import unicodedata
 
-def normalize_username(username):
-    return unicodedata.normalize("NFKC", username.strip().lower())
-
 def load_usernames_following(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         data = json.load(file)
@@ -16,7 +13,7 @@ def load_usernames_following(file_path):
         for entry in data:
             if "string_list_data" in entry:
                 for user in entry["string_list_data"]:
-                    usernames.add(user["value"].strip().lower())
+                    usernames.add(user["value"])
 
         return usernames
 
@@ -28,11 +25,12 @@ def load_usernames_followers(file_path):
         for entry in data:
             if "string_list_data" in entry:
                 for user in entry["string_list_data"]:
-                    usernames.add(normalize_username(user["value"]))
+                    usernames.add(user["value"])
 
         return usernames
 
 def find_unfollowers(followers_file, following_file):
+    # the structure of these two json files are different so i gotta create a different code for each of them
     followers = load_usernames_followers(followers_file)
     following = load_usernames_following(following_file)
 
