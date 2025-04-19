@@ -30,7 +30,7 @@ def load_usernames_followers(file_path):
         return usernames
 
 def find_unfollowers(followers_file, following_file):
-    # the structure of these two json files are different so i gotta create a different code for each of them
+    # the structure of these two json files are different so i gotta separate the code
     followers = load_usernames_followers(followers_file)
     following = load_usernames_following(following_file)
 
